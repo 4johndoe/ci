@@ -10,6 +10,8 @@
 
 		<?php foreach ($rows as $r) { ?>
 			<h1><?php echo $r->title; ?></h1>
+			<div><?php echo $r->contents; ?></div>
+			<!-- <div><a href="#"><?php echo $r->author; ?></a></div> -->
 		<?php } ?>
 	</div>
 </body>
