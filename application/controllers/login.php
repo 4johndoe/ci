@@ -13,17 +13,16 @@ class Login extends CI_Controller
 		$this->load->model('membership_model');
 		$query = $this->membership_model->validate();
 
-		if ($query) {
+		if ($query) 
+		{
 			$data = array(
 				'username' => $this->input->post('username'),
 				'is_logged_in' => true
-				);
+			);
 
 			$this->session->set_userdata($data);
 			redirect('site/members_area');
-		} 
-		else 
-		{
+		} else {
 			$this->index();
 		}
 	}
