@@ -35,6 +35,6 @@ class Login extends CI_Controller
 	function signup() 
 	{
 		$data['main_content'] = 'signup_form';
-		$this->load->view('includes/template', $data); //
+		$this->load->view('includes/template', $data); 
 	}
 }
