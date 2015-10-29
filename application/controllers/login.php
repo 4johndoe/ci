@@ -6,6 +6,7 @@ class Login extends CI_Controller
 
 	public function index()
 	{
-		// $this->load->view('welcome_message');
+		$data['main_content'] = 'login_form';
+		$this->load->view('includes/template', $data);
 	}
 }

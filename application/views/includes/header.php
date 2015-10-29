@@ -6,6 +6,3 @@
 	<link rel="stylesheet" href="<?php base_url(); ?>css/style.css">
 </head>
 <body>
-	
-</body>
-</html>
