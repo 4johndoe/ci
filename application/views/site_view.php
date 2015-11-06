@@ -6,7 +6,7 @@
 </head>
 <body>
 	<div id="container">
-		<h1>Super pagination with CI</h1>
+		<h1>Pagination with CI</h1>
 
 		<?php echo $this->table->generate($records); ?>
 		<?php echo $this->pagination->create_links(); ?>
